@@ -5,7 +5,7 @@
 ```python
 import cv2
 ```
-> Now choosing an algorithm. In the article haarcascades algorithm used.
+> Now choosing a pre-trained dataset. In the article haarcascades dataset used.
 ```python
 face_classifier = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
